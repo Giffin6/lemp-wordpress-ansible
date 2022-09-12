@@ -1,5 +1,8 @@
 # lemp-wordpress-ansible
 
+## Ansible wordpress auto Install playbook with all the re-run condition applied
+
+
 # package.vars
 ```
 ---
@@ -183,6 +186,9 @@ require_once ABSPATH . 'wp-settings.php';
 
 ```
 
+
+
+# Wordpress-Auto-Install-Playbook.yml
 
 ```
 
