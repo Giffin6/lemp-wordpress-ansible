@@ -1,6 +1,6 @@
 # lemp-wordpress-ansible
 
-# vim package.vars
+# package.vars
 ```
 ---
 packages: 
@@ -10,7 +10,7 @@ packages:
   - php7.4-fpm
 ```
 
-# vim nginx.vars
+# nginx.vars
 ```
 ---
 lport: 80
@@ -20,7 +20,7 @@ nuser: "www-data"
 ngroup: "www-data"
 ```
 
-# vim nvhost.conf.j2
+# nvhost.conf.j2
 ```
 server {
 
@@ -45,7 +45,7 @@ location ~ \.php$ {
 } 
 ```
 
-# vim mysqle.vars
+# mysqle.vars
 ```
 ---
 mysqlrpe: "mysqlroot123pass"
@@ -67,7 +67,7 @@ wp_url: "https://wordpress.org/wordpress-5.8.4.tar.gz"
 
 
 
-# vim my.cnf.tmpl
+# my.cnf.tmpl
 
 ```
 [client]
@@ -81,7 +81,7 @@ password={{ mysqlrpe }}
 
 
 
-# vim wp-config.php.tmpl
+# wp-config.php.tmpl
 
 ```
 <?php
