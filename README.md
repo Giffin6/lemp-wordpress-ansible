@@ -69,11 +69,12 @@ wp_url: "https://wordpress.org/wordpress-5.8.4.tar.gz"
 
 # vim my.cnf.tmpl
 
+```
 [client]
 user=root
 password={{ mysqlrpe }}
 
-
+```
 
 
 
