@@ -1,4 +1,4 @@
-# lemp-wordpress-ansible
+# lemp-wordpress based-ansible project
 
 
 ## Ansible wordpress auto Install playbook with all the re-run condition applied
